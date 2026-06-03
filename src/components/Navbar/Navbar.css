@@ -8,15 +8,16 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: transparent;
-  transition: background-color var(--transition-base),
-              box-shadow var(--transition-base);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 0 rgba(226, 232, 240, 0.8);
+  transition:
+    padding var(--transition-base),
+    box-shadow var(--transition-base);
   padding: 1.25rem 0;
 }
 
-/* Navbar devine solid după scroll */
+/* Navbar devine mai compact după scroll */
 .navbar--scrolled {
-  background-color: var(--color-dark-soft);
   box-shadow: var(--shadow-md);
   padding: 0.85rem 0;
 }
@@ -27,15 +28,15 @@
   justify-content: space-between;
 }
 
-/* ── Logo ── */
+/* Logo */
 .navbar__logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: var(--font-size-xl);
   font-weight: 700;
-  color: var(--color-white);
-  letter-spacing: -0.02em;
+  color: var(--color-dark);
+  letter-spacing: 0;
 }
 
 .navbar__logo-icon {
@@ -45,10 +46,10 @@
 }
 
 .navbar__logo-text {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
-/* ── Linkuri navigare ── */
+/* Linkuri navigare */
 .navbar__nav {
   display: flex;
   align-items: center;
@@ -60,39 +61,38 @@
   border-radius: var(--radius-md);
   font-size: var(--font-size-sm);
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
-  transition: color var(--transition-fast),
-              background-color var(--transition-fast);
+  color: var(--color-gray);
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast);
 }
 
 .navbar__link:hover {
-  color: var(--color-white);
-  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
 }
 
-/* Link activ — setat automat de NavLink */
+/* Link activ */
 .navbar__link.active {
-  color: var(--color-white);
-  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
   font-weight: 600;
 }
 
-/* Link Contact — arată ca un buton */
+/* Link Contact */
 .navbar__link--cta {
   background-color: var(--color-primary);
   color: var(--color-white) !important;
   margin-left: 0.5rem;
 }
 
-.navbar__link--cta:hover {
-  background-color: var(--color-primary-dark) !important;
-}
-
+.navbar__link--cta:hover,
 .navbar__link--cta.active {
   background-color: var(--color-primary-dark) !important;
+  color: var(--color-white) !important;
 }
 
-/* ── Hamburger ── */
+/* Hamburger */
 .navbar__hamburger {
   display: none;
   flex-direction: column;
@@ -106,24 +106,26 @@
   display: block;
   width: 24px;
   height: 2px;
-  background-color: var(--color-white);
+  background-color: var(--color-dark);
   border-radius: 2px;
-  transition: transform var(--transition-base),
-              opacity var(--transition-base);
+  transition:
+    transform var(--transition-base),
+    opacity var(--transition-base);
 }
 
-/* Animație hamburger → X */
 .navbar__hamburger--open span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
+
 .navbar__hamburger--open span:nth-child(2) {
   opacity: 0;
 }
+
 .navbar__hamburger--open span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* ── Responsive Mobile ── */
+/* Responsive Mobile */
 @media (max-width: 768px) {
   .navbar__hamburger {
     display: flex;
@@ -136,16 +138,16 @@
     right: 0;
     flex-direction: column;
     align-items: stretch;
-    background-color: var(--color-dark-soft);
+    background-color: var(--color-white);
     padding: 1rem;
     gap: 0.25rem;
-
-    /* Ascuns implicit */
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height var(--transition-base),
-                opacity var(--transition-base);
+    box-shadow: var(--shadow-md);
+    transition:
+      max-height var(--transition-base),
+      opacity var(--transition-base);
   }
 
   .navbar__nav--open {
@@ -160,7 +162,7 @@
 
   .navbar__link--cta {
     margin-left: 0;
-    text-align: center;
     margin-top: 0.5rem;
+    text-align: center;
   }
 }
