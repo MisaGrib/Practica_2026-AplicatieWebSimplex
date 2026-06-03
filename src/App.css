@@ -5,7 +5,7 @@
   min-height: 100vh;
 }
 
-/* Main content crește pentru a împinge footer-ul jos */
 .main-content {
   flex: 1;
+  padding-top: 72px; /* înălțimea navbar-ului fixed */
 }

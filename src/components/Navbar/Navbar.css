@@ -1,0 +1,166 @@
+/* ============================================
+   NAVBAR — Simplex
+   ============================================ */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color var(--transition-base),
+              box-shadow var(--transition-base);
+  padding: 1.25rem 0;
+}
+
+/* Navbar devine solid după scroll */
+.navbar--scrolled {
+  background-color: var(--color-dark-soft);
+  box-shadow: var(--shadow-md);
+  padding: 0.85rem 0;
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── Logo ── */
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: -0.02em;
+}
+
+.navbar__logo-icon {
+  font-size: 1.6rem;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
+.navbar__logo-text {
+  color: var(--color-white);
+}
+
+/* ── Linkuri navigare ── */
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navbar__link {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color var(--transition-fast),
+              background-color var(--transition-fast);
+}
+
+.navbar__link:hover {
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Link activ — setat automat de NavLink */
+.navbar__link.active {
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+/* Link Contact — arată ca un buton */
+.navbar__link--cta {
+  background-color: var(--color-primary);
+  color: var(--color-white) !important;
+  margin-left: 0.5rem;
+}
+
+.navbar__link--cta:hover {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.navbar__link--cta.active {
+  background-color: var(--color-primary-dark) !important;
+}
+
+/* ── Hamburger ── */
+.navbar__hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.navbar__hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-white);
+  border-radius: 2px;
+  transition: transform var(--transition-base),
+              opacity var(--transition-base);
+}
+
+/* Animație hamburger → X */
+.navbar__hamburger--open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar__hamburger--open span:nth-child(2) {
+  opacity: 0;
+}
+.navbar__hamburger--open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Responsive Mobile ── */
+@media (max-width: 768px) {
+  .navbar__hamburger {
+    display: flex;
+  }
+
+  .navbar__nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--color-dark-soft);
+    padding: 1rem;
+    gap: 0.25rem;
+
+    /* Ascuns implicit */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height var(--transition-base),
+                opacity var(--transition-base);
+  }
+
+  .navbar__nav--open {
+    max-height: 400px;
+    opacity: 1;
+  }
+
+  .navbar__link {
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+  }
+
+  .navbar__link--cta {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
