@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titlu": "Solutii scalabile",
+    "descriere": "Produsele Simplex pot creste odata cu nevoile companiei."
+  },
+  {
+    "id": 2,
+    "titlu": "Interfete intuitive",
+    "descriere": "Aplicatiile sunt gandite pentru utilizare rapida si eficienta."
+  },
+  {
+    "id": 3,
+    "titlu": "Suport tehnic",
+    "descriere": "Clientii primesc asistenta pentru configurare, mentenanta si optimizare."
+  },
+  {
+    "id": 4,
+    "titlu": "Securitate integrata",
+    "descriere": "Datele si procesele digitale sunt protejate prin practici moderne de securitate."
+  }
+]
