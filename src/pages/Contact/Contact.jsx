@@ -87,12 +87,12 @@ function Contact() {
 
             <div>
               <strong>Telefon</strong>
-              <span>+40 721 000 000</span>
+              <span>+373 6558 1234</span>
             </div>
 
             <div>
               <strong>Adresă</strong>
-              <span>Str. Tehnologiei 42, București</span>
+              <span>Bd. Dacia 42, Chișinău</span>
             </div>
           </div>
         </div>

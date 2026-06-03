@@ -54,7 +54,7 @@ function Footer() {
             <ul className="footer__contact">
               <li>
                 <span className="footer__contact-icon">📍</span>
-                Str. Tehnologiei 42, București
+                Bd. Dacia 42, Chișinău
               </li>
               <li>
                 <span className="footer__contact-icon">📧</span>
@@ -62,7 +62,7 @@ function Footer() {
               </li>
               <li>
                 <span className="footer__contact-icon">📞</span>
-                +40 721 000 000
+                +373 6558 1234
               </li>
             </ul>
           </div>
@@ -75,9 +75,7 @@ function Footer() {
         {/* Copyright */}
         <div className="footer__bottom">
           <p>© {currentYear} Simplex. Toate drepturile rezervate.</p>
-          <p className="footer__bottom-right">
-            Construit cu React & ❤️
-          </p>
+          
         </div>
 
       </div>
