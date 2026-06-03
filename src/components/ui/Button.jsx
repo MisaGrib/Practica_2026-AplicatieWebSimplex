@@ -1,0 +1,10 @@
+// Buton reutilizabil — va fi completat în etapa 2
+function Button({ children, variant = 'primary', onClick }) {
+  return (
+    <button className={`btn btn--${variant}`} onClick={onClick}>
+      {children}
+    </button>
+  )
+}
+
+export default Button
