@@ -2,131 +2,81 @@
   {
     "id": 1,
     "nume": "Simplex CRM",
-    "descriere": "Platforma CRM pentru gestionarea clientilor, vanzarilor si interactiunilor comerciale.",
+    "descriere": "Platformă CRM pentru gestionarea clienților, vânzărilor și interacțiunilor comerciale.",
     "categorie": "Business Software",
-    "imagine": "https://placehold.co/600x400?text=Simplex+CRM",
-    "caracteristici": [
-      "Management clienti",
-      "Pipeline de vanzari",
-      "Rapoarte comerciale",
-      "Automatizari pentru echipe"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Simplex+CRM",
+    "caracteristici": ["Management clienți", "Pipeline de vânzări", "Rapoarte comerciale", "Automatizări pentru echipe"]
   },
   {
     "id": 2,
     "nume": "Simplex ERP",
     "descriere": "Sistem ERP modular pentru administrarea proceselor interne ale companiei.",
     "categorie": "Business Software",
-    "imagine": "https://placehold.co/600x400?text=Simplex+ERP",
-    "caracteristici": [
-      "Module financiare",
-      "Gestiune stocuri",
-      "Management proiecte",
-      "Dashboard operational"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Simplex+ERP",
+    "caracteristici": ["Module financiare", "Gestiune stocuri", "Management proiecte", "Dashboard operațional"]
   },
   {
     "id": 3,
     "nume": "Simplex HR Suite",
-    "descriere": "Solutie software pentru administrarea angajatilor, concediilor si proceselor HR.",
+    "descriere": "Soluție software pentru administrarea angajaților, concediilor și proceselor HR.",
     "categorie": "Business Software",
-    "imagine": "https://placehold.co/600x400?text=Simplex+HR",
-    "caracteristici": [
-      "Dosare angajati",
-      "Cereri de concediu",
-      "Evaluari de performanta",
-      "Rapoarte HR"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Simplex+HR+Suite",
+    "caracteristici": ["Dosare angajați", "Cereri de concediu", "Evaluări de performanță", "Rapoarte HR"]
   },
   {
     "id": 4,
     "nume": "Simplex Cloud Backup",
-    "descriere": "Serviciu cloud pentru backup automat si restaurare rapida a datelor importante.",
+    "descriere": "Serviciu cloud pentru backup automat și restaurare rapidă a datelor importante.",
     "categorie": "Cloud Solutions",
-    "imagine": "https://placehold.co/600x400?text=Cloud+Backup",
-    "caracteristici": [
-      "Backup automat",
-      "Criptare date",
-      "Restaurare rapida",
-      "Monitorizare continua"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Cloud+Backup",
+    "caracteristici": ["Backup automat", "Criptare date", "Restaurare rapidă", "Monitorizare continuă"]
   },
   {
     "id": 5,
     "nume": "Simplex Cloud Hosting",
-    "descriere": "Hosting cloud scalabil pentru aplicatii web, API-uri si platforme digitale.",
+    "descriere": "Hosting cloud scalabil pentru aplicații web, API-uri și platforme digitale.",
     "categorie": "Cloud Solutions",
-    "imagine": "https://placehold.co/600x400?text=Cloud+Hosting",
-    "caracteristici": [
-      "Scalare flexibila",
-      "Uptime ridicat",
-      "Administrare simplificata",
-      "Suport tehnic"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Cloud+Hosting",
+    "caracteristici": ["Scalare flexibilă", "Uptime ridicat", "Administrare simplificată", "Suport tehnic"]
   },
   {
     "id": 6,
     "nume": "Simplex DevOps Cloud",
-    "descriere": "Platforma pentru automatizarea livrarii aplicatiilor si administrarea infrastructurii cloud.",
+    "descriere": "Platformă pentru automatizarea livrării aplicațiilor și administrarea infrastructurii cloud.",
     "categorie": "Cloud Solutions",
-    "imagine": "https://placehold.co/600x400?text=DevOps+Cloud",
-    "caracteristici": [
-      "CI/CD",
-      "Monitorizare servicii",
-      "Deploy automat",
-      "Administrare infrastructura"
-    ]
+    "imagine": "https://placehold.co/800x520?text=DevOps+Cloud",
+    "caracteristici": ["CI/CD", "Monitorizare servicii", "Deploy automat", "Administrare infrastructură"]
   },
   {
     "id": 7,
     "nume": "Simplex Secure Email",
-    "descriere": "Solutie de securitate pentru protejarea emailurilor impotriva spamului si atacurilor phishing.",
+    "descriere": "Soluție de securitate pentru protejarea emailurilor împotriva spamului și atacurilor phishing.",
     "categorie": "Security Solutions",
-    "imagine": "https://placehold.co/600x400?text=Secure+Email",
-    "caracteristici": [
-      "Filtrare spam",
-      "Detectare phishing",
-      "Scanare atasamente",
-      "Politici de securitate"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Secure+Email",
+    "caracteristici": ["Filtrare spam", "Detectare phishing", "Scanare atașamente", "Politici de securitate"]
   },
   {
     "id": 8,
     "nume": "Simplex Endpoint Guard",
-    "descriere": "Protectie pentru laptopuri, statii de lucru si dispozitive utilizate in companie.",
+    "descriere": "Protecție pentru laptopuri, stații de lucru și dispozitive utilizate în companie.",
     "categorie": "Security Solutions",
-    "imagine": "https://placehold.co/600x400?text=Endpoint+Guard",
-    "caracteristici": [
-      "Protectie malware",
-      "Monitorizare dispozitive",
-      "Blocare amenintari",
-      "Rapoarte de securitate"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Endpoint+Guard",
+    "caracteristici": ["Protecție malware", "Monitorizare dispozitive", "Blocare amenințări", "Rapoarte de securitate"]
   },
   {
     "id": 9,
     "nume": "Simplex Firewall Pro",
-    "descriere": "Sistem firewall pentru controlul traficului si protectia retelei companiei.",
+    "descriere": "Sistem firewall pentru controlul traficului și protecția rețelei companiei.",
     "categorie": "Security Solutions",
-    "imagine": "https://placehold.co/600x400?text=Firewall+Pro",
-    "caracteristici": [
-      "Control trafic",
-      "Reguli personalizate",
-      "Protectie retea",
-      "Jurnalizare evenimente"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Firewall+Pro",
+    "caracteristici": ["Control trafic", "Reguli personalizate", "Protecție rețea", "Jurnalizare evenimente"]
   },
   {
     "id": 10,
     "nume": "Simplex Identity Shield",
-    "descriere": "Solutie pentru autentificare securizata si administrarea accesului utilizatorilor.",
+    "descriere": "Soluție pentru autentificare securizată și administrarea accesului utilizatorilor.",
     "categorie": "Security Solutions",
-    "imagine": "https://placehold.co/600x400?text=Identity+Shield",
-    "caracteristici": [
-      "Autentificare securizata",
-      "Control roluri",
-      "Management acces",
-      "Audit utilizatori"
-    ]
+    "imagine": "https://placehold.co/800x520?text=Identity+Shield",
+    "caracteristici": ["Autentificare securizată", "Control roluri", "Management acces", "Audit utilizatori"]
   }
 ]

@@ -2,16 +2,19 @@
   {
     "id": 1,
     "titlu": "Dezvoltare software",
-    "descriere": "Construim aplicatii web moderne, scalabile si adaptate proceselor de business."
+    "descriere": "Construim aplicații web moderne, scalabile și adaptate proceselor de business.",
+    "imagine": "https://placehold.co/800x520?text=Dezvoltare+Software"
   },
   {
     "id": 2,
-    "titlu": "Solutii cloud",
-    "descriere": "Oferim servicii cloud pentru hosting, backup, deploy si administrarea infrastructurii."
+    "titlu": "Soluții cloud",
+    "descriere": "Oferim servicii cloud pentru hosting, backup, deploy și administrarea infrastructurii.",
+    "imagine": "https://placehold.co/800x520?text=Solutii+Cloud"
   },
   {
     "id": 3,
     "titlu": "Securitate IT",
-    "descriere": "Protejam datele, dispozitivele si retelele companiilor prin solutii de securitate moderne."
+    "descriere": "Protejăm datele, dispozitivele și rețelele companiilor prin soluții de securitate moderne.",
+    "imagine": "https://placehold.co/800x520?text=Securitate+IT"
   }
 ]

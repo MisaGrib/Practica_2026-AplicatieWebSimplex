@@ -44,9 +44,7 @@ function Home() {
         <div className="container home-about__container">
           <div>
             <span className="home-section-label">Despre Simplex</span>
-            <h2>
-              Construim tehnologie utilă pentru companii în creștere.
-            </h2>
+            <h2>Construim tehnologie utilă pentru companii în creștere.</h2>
           </div>
 
           <p>
@@ -71,9 +69,17 @@ function Home() {
           <div className="grid-3">
             {services.map((service) => (
               <article className="home-card" key={service.id}>
-                <span className="home-card__number">0{service.id}</span>
-                <h3>{service.titlu}</h3>
-                <p>{service.descriere}</p>
+                <img
+                  className="home-card__image"
+                  src={service.imagine}
+                  alt={service.titlu}
+                />
+
+                <div className="home-card__content">
+                  <span className="home-card__number">0{service.id}</span>
+                  <h3>{service.titlu}</h3>
+                  <p>{service.descriere}</p>
+                </div>
               </article>
             ))}
           </div>
